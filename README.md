@@ -33,49 +33,62 @@ The loss is evaluated as weighted combination of the BCE and L1 with the origina
   </p>
 
 ## Performance
+
 ### Baseline Autoencoder
 <p align="center">
   <img src=/Images/autoencoder5_1.png>
-         <img src=/Images/autoencoder5_2.png>
+  <img src=/Images/autoencoder5_2.png>
   <img src=/Images/autoencoder5_3.png>
   <img src=/Images/autoencoder5_4.png>
   </p>
+  
 ### Training
 <p align="center">
   <img src=/Images/GAN_train_1.png>
-    <img src=/Images/GAN_train_2.png>
+  <img src=/Images/GAN_train_2.png>
   <img src=/Images/GAN_train_3.png>
   <img src=/Images/GAN_train_4.png>
 
   </p>
 ### Validating
 <p align="center">
-    <img src=/Images/GAN_val_1.png>
+  <img src=/Images/GAN_val_1.png>
   <img src=/Images/GAN_val_2.png>
 
-  </p>
+</p>
+  
 ### Testing
 <p align="center">
-    <img src=/Images/GAN_test_1.png>
+  <img src=/Images/GAN_test_1.png>
   <img src=/Images/GAN_test_2.png>
   <img src=/Images/GAN_test_3.png>
-  
+  <br/>
   <img src=/Images/google_test_1.png>
-    <img src=/Images/google_test_2.png>
+  <img src=/Images/google_test_2.png>
   <img src=/Images/google_test_3.png>
   <img src=/Images/google_test_4.png>
   <img src=/Images/google_test_5.png>
   <img src=/Images/google_test_6.png>
   <img src=/Images/google_test_7.png>
-  </p>
+ </p>
   
-  ### Comparison with baseline
+### Comparison with baseline
 <p align="center">
   <img src=/Images/compare_autoencoder5.png>
-    <img src=/Images/compare_autoencoder7.png>
-  <img src=/Images/compare_autoencoder7LR.png>
-  <img src=/Images/compare_autoencoder9skip.png>
-  <img src=/Images/compare_GAN9skip.png>
+  <br/>
 
-  </p>
+  <img src=/Images/compare_autoencoder7.png>  
+  <br/>
+
+  <img src=/Images/compare_autoencoder7LR.png>  
+  <br/>
+
+  <img src=/Images/compare_autoencoder9skip.png>  
+  <br/>
+
+  <img src=/Images/compare_GAN9skip.png>  
+  <br/>
+
+</p>
+
 ## Conclusion
