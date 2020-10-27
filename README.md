@@ -20,10 +20,18 @@ The data used is the [flower data set from kaggle](https://www.kaggle.com/olgabe
 The base line model is a 5-layer autoencoder, serveral adjustments were made e.g., increasing layer, adjusting downsampling rate, replacing avg/max pooling with conv2d. The file contains various model used for hyperparameter tunings. The finalized generator downsamples with convolution, RELU and uses a DenseNET style skiip connection. The passings are batch normalized. The embedding dimenison is 16x16x512. The discriminator is a standard CNN downsamples with average pooling and batch normalization. BCE for output error. 
 
 <p align="center">
-  <img src = /Images/Final_Model
-  </p>
+  <img src = /Images/Final_Model.png>
+ </p>
 
 ## Training 
+The loss is evaluated as weighted combination of the BCE and L1 with the original image. The generators and discriminators have differe LR with intermitant noise feed to prevent mode collapse. Limited by the model and time for tuning. The discrinminator ultimately overpowers the generator at higher epochs. Additional tuning and adjustment to the architecture should be expected in the future. 
+
+<p align="center">
+  <img src=/Images/Training_curce.png>
+  <img src=/Images/Training_Accuracy.png>
+  </p>
+
+
 
 ## Performance
 
