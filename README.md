@@ -9,9 +9,10 @@ The data used is the [flower data set from kaggle](https://www.kaggle.com/olgabe
 <br/>
 Example of training/validation data 
 <br/>
+<p align="center">
 ![Image of grey][data_gray]
 ![Image of color][data_color]
-
+</p>
 [data_gray]: /Images/processed_gray.png
 [data_color]: /Images/processed_original.png
 ## Model
