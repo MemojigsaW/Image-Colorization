@@ -10,7 +10,7 @@ The data used is the [flower data set from kaggle](https://www.kaggle.com/olgabe
 Example of training/validation data 
 ![Image of grey][data_gray]
 
-[data_gray]: https://github.com/MemojigsaW/Image-Colorization/tree/master/Images/processed_gray.png
+[data_gray]: /Images/processed_gray.png
 
 ## Model
 
