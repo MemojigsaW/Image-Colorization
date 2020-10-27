@@ -27,9 +27,8 @@ The base line model is a 5-layer autoencoder, serveral adjustments were made e.g
 The loss is evaluated as weighted combination of the BCE and L1 with the original image. The generators and discriminators have differe LR with intermitant noise feed to prevent mode collapse. Limited by the model and time for tuning. The discrinminator ultimately overpowers the generator at higher epochs. Additional tuning and adjustment to the architecture should be expected in the future. 
 
 <p align="center">
-  <img src=/Images/Training_curve.png width="300" height="300">
-  <br/>
-  <img src=/Images/Training_Accuracy.png width="300" height="300">
+  <img src=/Images/Training_curve.png width="450" height="300">
+  <img src=/Images/Training_Accuracy.png width="450" height="300">
   </p>
 
 ## Performance
@@ -92,3 +91,4 @@ The loss is evaluated as weighted combination of the BCE and L1 with the origina
 </p>
 
 ## Conclusion
+Problem with the autoencoder source from the MSE loss function. The bluriness resulting from autoencoder is improved by the GAN. Limited by the computational power, only a small dataset on flowers is used. The model architecture can be extended for more feature maps and for more generalized colorization tasks Currently, features not recognizable in flower (like the road and concrete) will be ignored by the model. Reason for using the flower dataset is to test how well the model can generalize for a "hard" set.
