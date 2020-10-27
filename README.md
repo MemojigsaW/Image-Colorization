@@ -27,12 +27,55 @@ The base line model is a 5-layer autoencoder, serveral adjustments were made e.g
 The loss is evaluated as weighted combination of the BCE and L1 with the original image. The generators and discriminators have differe LR with intermitant noise feed to prevent mode collapse. Limited by the model and time for tuning. The discrinminator ultimately overpowers the generator at higher epochs. Additional tuning and adjustment to the architecture should be expected in the future. 
 
 <p align="center">
-  <img src=/Images/Training_curve.png width="400" height="400">
-  <img src=/Images/Training_Accuracy.png width="400" height="400">
+  <img src=/Images/Training_curve.png width="300" height="300">
+  <br/>
+  <img src=/Images/Training_Accuracy.png width="300" height="300">
   </p>
 
-
-
 ## Performance
+### Baseline Autoencoder
+<p align="center">
+  <img src=/Images/autoencoder5_1.png>
+         <img src=/Images/autoencoder5_2.png>
+  <img src=/Images/autoencoder5_3.png>
+  <img src=/Images/autoencoder5_4.png>
+  </p>
+### Training
+<p align="center">
+  <img src=/Images/GAN_train_1.png>
+    <img src=/Images/GAN_train_2.png>
+  <img src=/Images/GAN_train_3.png>
+  <img src=/Images/GAN_train_4.png>
 
+  </p>
+### Validating
+<p align="center">
+    <img src=/Images/GAN_val_1.png>
+  <img src=/Images/GAN_val_2.png>
+
+  </p>
+### Testing
+<p align="center">
+    <img src=/Images/GAN_test_1.png>
+  <img src=/Images/GAN_test_2.png>
+  <img src=/Images/GAN_test_3.png>
+  
+  <img src=/Images/google_test_1.png>
+    <img src=/Images/google_test_2.png>
+  <img src=/Images/google_test_3.png>
+  <img src=/Images/google_test_4.png>
+  <img src=/Images/google_test_5.png>
+  <img src=/Images/google_test_6.png>
+  <img src=/Images/google_test_7.png>
+  </p>
+  
+  ### Comparison with baseline
+<p align="center">
+  <img src=/Images/compare_autoencoder5.png>
+    <img src=/Images/compare_autoencoder7.png>
+  <img src=/Images/compare_autoencoder7LR.png>
+  <img src=/Images/compare_autoencoder9skip.png>
+  <img src=/Images/compare_GAN9skip.png>
+
+  </p>
 ## Conclusion
