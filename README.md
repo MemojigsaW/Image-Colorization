@@ -27,8 +27,8 @@ The base line model is a 5-layer autoencoder, serveral adjustments were made e.g
 The loss is evaluated as weighted combination of the BCE and L1 with the original image. The generators and discriminators have differe LR with intermitant noise feed to prevent mode collapse. Limited by the model and time for tuning. The discrinminator ultimately overpowers the generator at higher epochs. Additional tuning and adjustment to the architecture should be expected in the future. 
 
 <p align="center">
-  <img src=/Images/Training_curve.png>
-  <img src=/Images/Training_Accuracy.png>
+  <img src=/Images/Training_curve.png width="400" height="400">
+  <img src=/Images/Training_Accuracy.png width="400" height="400">
   </p>
 
 
