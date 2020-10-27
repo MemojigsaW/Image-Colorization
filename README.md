@@ -49,6 +49,7 @@ The loss is evaluated as weighted combination of the BCE and L1 with the origina
   <img src=/Images/GAN_train_4.png>
 
   </p>
+  
 ### Validating
 <p align="center">
   <img src=/Images/GAN_val_1.png>
@@ -75,18 +76,23 @@ The loss is evaluated as weighted combination of the BCE and L1 with the origina
 <p align="center">
   <img src=/Images/compare_autoencoder5.png>
   <br/>
+  baseline
 
   <img src=/Images/compare_autoencoder7.png>  
   <br/>
+  7 layer autoencoder
 
   <img src=/Images/compare_autoencoder7LR.png>  
   <br/>
+  w/ LeakyReLU
 
   <img src=/Images/compare_autoencoder9skip.png>  
   <br/>
+  w/ concat skip connections
 
   <img src=/Images/compare_GAN9skip.png>  
   <br/>
+  Finalized GAN
 
 </p>
 
