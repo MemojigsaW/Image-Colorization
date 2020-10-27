@@ -1,0 +1,9 @@
+Need
+
+	https://www.kaggle.com/olgabelitskaya/flower-color-images
+	test folder	for demonstrate function
+	Train Weight Folder	where train weights are saved
+	flower_image path is not needed 
+	Unet weight too large for input.
+	Dataset, extract to and separate into gray and color folders
+	dense net skip connection
