@@ -8,10 +8,12 @@ All models are in image colorization.ipynb. The demo file is for testing the fin
 The data used is the [flower data set from kaggle](https://www.kaggle.com/olgabelitskaya/flower-color-images). To replicate the training, download the data set and create a training folder with gray photos and colored photos in different folder then adjust the pathing in the code. The input are also resized to 128x128. 
 <br/>
 Example of training/validation data 
+<br/>
 ![Image of grey][data_gray]
+![Image of color][data_color]
 
 [data_gray]: /Images/processed_gray.png
-
+[data_color]: /Images/processed_original.png
 ## Model
 
 ## Training 
